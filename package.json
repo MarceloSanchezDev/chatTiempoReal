@@ -1,0 +1,33 @@
+{
+  "name": "chattiemporeal",
+  "version": "1.0.0",
+  "description": "Aplicacion de Chat en tiempo real",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloSanchezDev/chatTiempoReal.git"
+  },
+  "keywords": [
+    "CHAT",
+    "APP",
+    "TIEMPO",
+    "REAL",
+    "NODEJS"
+  ],
+  "author": "MARCELO SANCEHZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarceloSanchezDev/chatTiempoReal/issues"
+  },
+  "homepage": "https://github.com/MarceloSanchezDev/chatTiempoReal#readme",
+  "dependencies": {
+    "express": "4.19.2",
+    "morgan": "1.10.0",
+    "socket.io": "4.7.5"
+  }
+}
